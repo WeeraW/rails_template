@@ -2,8 +2,7 @@
 ## Preconfigurations
 - Default template is Slim
 - Guardfile
-- nginx.conf
-- Default web server is Puma and configurations
+- Default web server is Thin and configurations
 
 ## This version includes gems
 - Web servers
@@ -17,7 +16,7 @@
     + [capybara](http://jnicklas.github.com/capybara/)
     + [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner)
 - Activerecord libraries
-    + [kaminari](https://github.com/amatsuda/kaminari)
+    + Paging [kaminari](https://github.com/amatsuda/kaminari)
 - Bootstrap libraries
     + [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
 - Template libraries
